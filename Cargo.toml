@@ -1,0 +1,16 @@
+[package]
+name = "cookin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "*"        # or the version you're using
+reqwest = { version = "*", features = ["json"] }
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+git2 = "*"
+tar = "*"
+flate2 = "*"
+tokio = { version = "*", features = ["full"] }
+egui = "0.28.1"
+eframe = "0.28.1"
